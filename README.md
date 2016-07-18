@@ -46,7 +46,7 @@
     ```
 2. Merge feature branch that is going live into develop & push to GitHub
     ```sh
-    $ git merge [branchname]
+    $ git merge <branchName>
     $ git push
     ```
 
