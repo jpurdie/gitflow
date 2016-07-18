@@ -2,20 +2,24 @@
 ## I want to...
 ### ...create a new branch.
 1. Create new local branch
+
     ```sh
     $ git checkout -b <branchName>
     ```
 2. Push branch to GitHub
+
     ```sh
     $ git push --set-upstream origin <branchName>
     ```
 
 ### ...make changes to a branch.
 1. Commit changes to branch (local)
+
     ```sh
     $ git commit -am 'commit comments'
     ```
 2. Push changes to GitHub
+
     ```sh
     $ git push
     ```
