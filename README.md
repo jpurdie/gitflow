@@ -6,7 +6,6 @@
     $ git checkout -b <branchName>
     ```
 2. Push branch to GitHub
-
     ```sh
     $ git push --set-upstream origin <branchName>
     ```
