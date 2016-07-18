@@ -70,8 +70,3 @@
     $ git tag -a <newTag> -m 'commit comments'
     $ git push --tags
     ```
-
-
-
-
-
