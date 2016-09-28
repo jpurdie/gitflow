@@ -12,6 +12,13 @@
     $ git push --set-upstream origin <branchName>
     ```
 
+### ...switch to a branch.
+1. Create new local branch
+
+    ```sh
+    $ git checkout <branchName>
+    ```
+
 ### ...make changes to a branch.
 1. Commit changes to branch (local)
 
