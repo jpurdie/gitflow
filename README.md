@@ -13,11 +13,16 @@
     ```
 
 ### ...switch to a branch.
-1. Create new local branch
+1. Switch to existing branch
 
     ```sh
     $ git checkout <branchName>
     ```
+2. Always a good idea to update with origin
+
+    ```sh
+    $ git pull
+    ```    
 
 ### ...make changes to a branch.
 1. Commit changes to branch (local)
