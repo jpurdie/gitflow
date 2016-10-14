@@ -6,7 +6,7 @@
     ```sh
     $ git checkout -b <branchName>
     ```
-2. Push branch to GitHub
+2. Push branch to remote server
 
     ```sh
     $ git push --set-upstream origin <branchName>
@@ -30,7 +30,7 @@
     ```sh
     $ git commit -am 'commit comments'
     ```
-2. Push changes to GitHub
+2. Push changes to remote server
 
     ```sh
     $ git push
@@ -48,7 +48,7 @@
     ```sh
     $ git checkout <branchName>
     ```
-3. Merge develop into feature branch, commit, and push to GitHub
+3. Merge develop into feature branch, commit, and push to remote server
 
     ```sh
     $ git merge develop
@@ -64,7 +64,7 @@
     $ git checkout develop
     $ git pull
     ```
-2. Merge feature branch that is going live into develop & push to GitHub
+2. Merge feature branch that is going live into develop & push to remote server
 
     ```sh
     $ git merge <branchName>
@@ -89,7 +89,7 @@
     ```sh
     $ git tag
     ```
-7. Mark with new tag (usually by incrementing 1) and push to GitHub
+7. Mark with new tag (usually by incrementing 1) and push to remote server
 
     ```sh
     $ git tag -a <newTag> -m 'commit comments'
