@@ -1,12 +1,18 @@
 # Git Flow
 ## I want to...
 ### ...create a new branch.
-1. Create new local branch
+1. Switch to the branch you want to copy
+
+    ```sh
+    $ git checkout <existingBranchName>
+    ```
+
+2. Create new local branch
 
     ```sh
     $ git checkout -b <branchName>
     ```
-2. Push branch to remote server
+3. Push branch to remote server
 
     ```sh
     $ git push --set-upstream origin <branchName>
