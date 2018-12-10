@@ -31,12 +31,17 @@
     ```    
 
 ### ...make changes to a branch.
-1. Commit changes to branch (local)
+1. If you have added new files (this adds all new files, for adding individual files, replace dot with file name)
+
+    ```sh
+    $ git add .
+    ```
+2. Commit changes to branch (local)
 
     ```sh
     $ git commit -am 'commit comments'
     ```
-2. Push changes to remote server
+3. Push changes to remote server
 
     ```sh
     $ git push
