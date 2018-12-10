@@ -10,12 +10,12 @@
 2. Create new local branch
 
     ```sh
-    $ git checkout -b <branchName>
+    $ git checkout -b <newBranchName>
     ```
 3. Push branch to remote server
 
     ```sh
-    $ git push --set-upstream origin <branchName>
+    $ git push --set-upstream origin <newBranchName>
     ```
 
 ### ...switch to a branch.
