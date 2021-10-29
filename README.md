@@ -91,7 +91,7 @@
 5. Merge changes into master branch
 
     ```sh
-    $ git checkout master
+    $ git checkout main
     $ git merge develop
     $ git push
     ```
